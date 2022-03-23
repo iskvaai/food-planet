@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.container{
+    position: absolute;
+width: 1200px;
+height: 40px;
+
+
+}
+
+.spoon{
+    position: absolute;
+top: 0.75%;
+
+
+}
+
+.food{
+    color: #254F4C;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    
+    text-transform: uppercase;
+    position: absolute;
+
+height: 16px;
+left: 35px;
+bottom: 5px;
+}
+
+.planet{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    color: #1D3130;
+    position: absolute;
+width: 184px;
+height: 24px;
+left: 35px;
+
+}
+
+nav ul{
+    position: absolute;
+    left: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+nav ul li{
+    
+    /* display: inline; */
+    margin-right: 60px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+
+.select{
+    margin-left: 30px;
+}
+
+.firstLi{
+   color: #FF583E;
+}
+
+.lastLi{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+color: #FF583E;
+
+}
+
+.phone, .basket{
+    margin-right: 8px;
+}
+
+.numberLi{
+    font-size: 18px;
+line-height: 21px;
+}
+
+.menu{
+     border: none;
+}
