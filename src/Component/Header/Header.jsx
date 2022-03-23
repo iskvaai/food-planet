@@ -3,7 +3,7 @@ import spoon from "../../Media/image/spoon.png";
 import styles from "./Header.module.css";
 import phone from "../../Media/image/phone.svg";
 import korzina from "../../Media/image/korzina.svg";
-import vector from "../../Media/image/vector.png";
+
 
 const Header = () =>{
     return(
