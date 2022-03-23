@@ -1,9 +1,12 @@
 import React from "react";
+import FirstBlock from "./Components/FirstBlock/FirstBlock";
 
 
 const App = () =>{
   return (
-      <div></div>
+      <div className="foodPlanet" style={{marginLeft:"200px"}}>
+        <FirstBlock/>
+      </div>
   )
 }
 export default App;
