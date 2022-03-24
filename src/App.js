@@ -8,6 +8,7 @@ function App() {
       <div className="foodPlanet" style={{marginLeft:"200px"}}>
         <Header/>
         <h1>dgbtb</h1>
+        <h1>Meerim</h1>
         <FirstBlock/>
     </div>
   );
