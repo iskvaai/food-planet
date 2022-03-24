@@ -1,7 +1,7 @@
 
 import React from "react";
 import FirstBlock from "./Components/FirstBlock/FirstBlock";
-import Header from "./Component/Header/Header";
+import Header from "./Components/Header/Header";
 
 function App() {
   return (
