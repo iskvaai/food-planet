@@ -5,7 +5,7 @@ import Header from "./Components/Header/Header";
 
 function App() {
   return (
-      <div className="foodPlanet" style={{marginLeft:"200px"}}>
+      <div className="food-planet" style={{marginLeft:"200px"}}>
         <Header/>
         <FirstBlock/>
     </div>
