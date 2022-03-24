@@ -48,7 +48,7 @@
 
 }
 
-nav ul {
+.firstMenu {
     position: absolute;
     left: 260px;
     display: flex;
@@ -57,7 +57,7 @@ nav ul {
     position: absolute;
 }
 
-nav ul li {
+.firstMenu li {
 
     /* display: inline; */
     margin-right: 60px;
@@ -72,9 +72,7 @@ nav ul li {
     justify-content: center;
 }
 
-.select {
 
-}
 
 .firstLi {
     color: #FF583E;

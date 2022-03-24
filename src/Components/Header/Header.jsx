@@ -13,7 +13,7 @@ const Header = () =>{
         <p className={styles.planet}>Планета вкусной еды</p>
         <div>
             <nav>
-                <ul>
+                <ul className={styles.firstMenu}>
                     <li className={styles.firstLi}>Главная</li>
                     <li>Menu<select className={styles.menu}></select></li> 
                     <li>Доставка</li>
