@@ -6,7 +6,7 @@ import SecondHeader from "../SecondHeader/SecondHeader";
 
 const FirstBlock = () => {
     return (
-        <div className={styles.menu}>
+        <div className={styles.menuDiv}>
 
             <div className={styles.firstMenu}>
 
@@ -20,6 +20,7 @@ const FirstBlock = () => {
                         height: "10px"
                     }} className={styles.vector} src={vector} alt=""/></button>
                 </div>
+
                 <div className={styles.secondBlock}>
                     <img src={burger} style={{
                         width: "659px",
@@ -29,10 +30,8 @@ const FirstBlock = () => {
 
             </div>
 
-            <div className={styles.secondHeaders}>
-                <h1 className={styles.secondH1}>Новинки</h1>
                 <SecondHeader/>
-            </div>
+
         </div>
 
     )

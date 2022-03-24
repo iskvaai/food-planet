@@ -57,6 +57,7 @@
 .firstBlock{
    width: 419px;
     height: 256px;
+    margin-top: 144px;
 
 }
 .firstMenu{
@@ -64,7 +65,7 @@
 
 }
 .secondBlock{
-
+    margin-top: 88px;
 }
 
 .secondHeaders{
@@ -85,6 +86,6 @@ h1 .firstH1{
 
 }
 
-.secondH1{
+.firstMenu{
 
 }
