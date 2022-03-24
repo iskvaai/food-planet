@@ -7,6 +7,7 @@ function App() {
   return (
       <div className="foodPlanet" style={{marginLeft:"200px"}}>
         <Header/>
+        <FirstBlock/>
     </div>
   );
 }
