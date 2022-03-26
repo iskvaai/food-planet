@@ -6,7 +6,7 @@ import SecondHeader from "../SecondHeader/SecondHeader";
 
 const FirstBlock = () => {
     return (
-        <div className={styles.menuDiv}>
+        <div className={styles.menuDiv} style={{marginLeft:"200px", marginRight:"200px"}} >
 
             <div className={styles.firstMenu}>
 
@@ -30,7 +30,6 @@ const FirstBlock = () => {
 
             </div>
 
-                <SecondHeader/>
 
         </div>
 

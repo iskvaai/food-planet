@@ -4,7 +4,7 @@ const Menu = () =>{
     return(
         <div className="menu-container">
             <nav>
-                <ul className="third-header" style={{display: "flex"}}>
+                <ul className="thirdHeader" style={{display: "flex"}}>
                     <li>Меню</li>
                     <li>Пицца</li>
                     <li>Бургер</li>

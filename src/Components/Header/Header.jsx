@@ -7,7 +7,7 @@ import korzina from "../../Media/image/korzina.svg";
 
 const Header = () =>{
     return(
-        <div className={styles.container}>
+        <div className={styles.containerHeader} >
         <img className={styles.spoon} src={spoon}/>
         <p className={styles.food}>food planet</p>
         <p className={styles.planet}>Планета вкусной еды</p>

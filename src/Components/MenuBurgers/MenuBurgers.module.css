@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.MenuBurgers {
+    margin-left: 224px;
+    margin-right: 224px;
+    display: flex;
+    gap: 32px;
+
+}
+
+.tofuBurger {
+    width: 264px;
+    height: 349px;
+    background: #2B4241;
+    border-radius: 40px;
+}
+
+.tofuBurgerText1 {
+    position: absolute;
+    width: 232px;
+    height: 25px;
+    left: 309px;
+    top: 790px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.tofuBurgerText2 {
+    position: absolute;
+    width: 231px;
+    height: 88.54px;
+    left: 250px;
+    top: 835px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.priceBurger {
+    position: absolute;
+    width: 231px;
+    height: 25px;
+    left: 333px;
+    top: 920px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btnBurgers {
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 262px;
+    top: 1008px;
+    background: #FF583E;
+    border-radius: 40px;
+    border: 0px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.burger1Photo {
+    position: absolute;
+    left: 260px;
+    top: 655px;
+}
+
+.burger2Photo {
+    position: absolute;
+    left: 552px;
+    top: 650px;
+}
+
+.burger3Photo {
+    position: absolute;
+    left: 848px;
+    top: 734px;
+}
+
+.burger4Photo {
+    position: absolute;
+    left: 1154px;
+    top: 728px;
+}
