@@ -2,10 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 .MenuBurgers {
-    margin-left: 224px;
-    margin-right: 224px;
-    display: flex;
-    gap: 32px;
+
 
 }
 
@@ -14,6 +11,9 @@
     height: 349px;
     background: #2B4241;
     border-radius: 40px;
+    display: flex;
+    gap: 32px;
+
 }
 
 .tofuBurgerText1 {
