@@ -6,7 +6,7 @@ import Menu from "./Components/Menu/Menu";
 
 function App() {
   return (
-      <div className="food-planet" style={{marginLeft:"200px", marginRight:"200px", width:"1200px"}}>
+      <div className="food-planet" style={{ width:"1600px"}}>
         <Header/>
         <FirstBlock/>
         <Menu/>

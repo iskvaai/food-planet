@@ -2,8 +2,6 @@ import React from "react";
 import styles from "./SecondHeader.module.css"
 const SecondHeader = () =>{
     return (
-
-
             <header >
                 <nav >
                     <ul className={styles.listHeader} style={{display:"flex",gap:"16px",listStyle:"none",alignContent:"center"}}>
@@ -17,7 +15,6 @@ const SecondHeader = () =>{
                     </ul>
                 </nav>
             </header>
-
     )
 }
 

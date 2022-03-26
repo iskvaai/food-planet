@@ -1,29 +1,29 @@
 import React from 'react';
+import styles from './Menu.module.css';
 
 const Menu = () =>{
     return(
-        <div className="menu-container">
+        <div className={styles.menuContainer}>
             <nav>
-                <ul className="third-header" style={{display: "flex"}}>
-                    <li>Меню</li>
-                    <li>Пицца</li>
-                    <li>Бургер</li>
-                    <li>Суши</li>
-                    <li>Роллы</li>
-                    <li>Салаты</li>
-                    <li>Десерты</li>
-                    <li>Напитки</li>
+                <ul className={styles.thirdHeader}>
+                    <li> <a className={styles.menuLI} href="">Меню</a></li>
+                    <li> <a href="">Пицца</a></li>
+                    <li> <a href="">Бургер</a></li>
+                    <li> <a href="">Суши</a></li>
+                    <li> <a href="">Роллы</a></li>
+                    <li> <a href="">Салаты</a></li>
+                    <li> <a href="">Десерты</a></li>
+                    <li> <a href="">Напитки</a></li>
                 </ul>
             </nav>  
-            <div className="sort">
+            <div className={styles.sort}>
                  <p>Сортировать  по:</p>
                 <select name="" id="">
                     <option value="По умолчанию">По умолчанию</option>
                 </select>
                 
             </div>  
-        </div>
-       
+        </div> 
     )
 }
 
