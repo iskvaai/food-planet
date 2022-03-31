@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
+.menuContainer{
+    margin-left: 224px;
+    margin-right: 224px;
+    margin-top: 49px;
+    width: 1152px;
+}
+
 .thirdHeader{
     display: flex;
     list-style: none;
@@ -21,6 +28,7 @@ margin-right: 16px;
 .thirdHeader li a{
     text-decoration: none;
     color: #1D3130;
+    
 }
 
 .menuLi{
@@ -30,22 +38,31 @@ font-weight: 900;
 font-size: 25px;
 line-height: 29px;
 color: #254F4C;
-margin-right: 100px;
+margin-right: 170px;
+align-items: center;
+
 }
 
 .sort{
     display: flex;
-
+    margin-top: 24px;
 }
 .sort p{
-    margin-right: 20px;
-    margin-left: 848px;
+    margin-right: 25px;
+    margin-left: 828px;
     
 }
 
 .sort select{
     width: 160px;
-height: 40px;
+    height: 40px;
     border: 1px solid #C4C4C4;
-    padding: 12px 39px 12px 23px;
+    padding: 12px 13px 9px 23px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #3A403F;
 }
+

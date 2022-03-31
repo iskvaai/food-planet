@@ -4,7 +4,6 @@ import styles from "./Header.module.css";
 import phone from "../../Media/image/phone.svg";
 import korzina from "../../Media/image/korzina.svg";
 
-
 const Header = () =>{
     return(
         <div className={styles.containerHeader} >

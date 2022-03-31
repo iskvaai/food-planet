@@ -1,0 +1,14 @@
+
+.listHeader{
+    display:flex;
+    gap:16px;
+    list-style:none;
+    align-content:center;
+    width: 72px;
+    height: 32px;
+}
+
+.burgerLi{
+    text-decoration: underline;
+    color:rgba(255, 88, 62, 1);
+}

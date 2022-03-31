@@ -2,11 +2,13 @@ import React from "react";
 import styles from "./SecondHeader.module.css"
 const SecondHeader = () =>{
     return (
+        <div style={{marginLeft:"224px", marginRight:"224px"}} >
+            <h1 >Новинки</h1>
             <header >
                 <nav >
-                    <ul className={styles.listHeader} style={{display:"flex",gap:"16px",listStyle:"none",alignContent:"center"}}>
+                    <ul className={styles.listHeader} >
                         <li >Пицца</li>
-                        <li >Бургер</li>
+                        <li className={styles.burgerLi} >Бургер</li>
                         <li >Суши</li>
                         <li >Роллы</li>
                         <li >Салаты</li>
@@ -15,6 +17,7 @@ const SecondHeader = () =>{
                     </ul>
                 </nav>
             </header>
+        </div>
     )
 }
 

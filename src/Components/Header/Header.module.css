@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-.container {
+.containerHeader {
     position: absolute;
     width: 1200px;
     height: 40px;
-    
-
-
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 .spoon {
