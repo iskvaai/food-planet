@@ -1,8 +1,8 @@
 import React from 'react';
-import spoon from "../../Media/image/spoon.png";
+import spoon from "../../Media/spoon.png";
 import styles from "./Header.module.css";
-import phone from "../../Media/image/phone.svg";
-import korzina from "../../Media/image/korzina.svg";
+import phone from "../../Media/phone.svg";
+import korzina from "../../Media/korzina.svg";
 
 
 const Header = () =>{
@@ -14,12 +14,12 @@ const Header = () =>{
         <div>
             <nav>
                 <ul className={styles.firstMenu}>
-                    <li className={styles.firstLi}>Главная</li>
-                    <li>Menu<select className={styles.menu}></select></li> 
-                    <li>Доставка</li>
-                    <li>Контакты</li>
+                        <li className={styles.firstLi}> <a href="">Главная</a></li>
+                        <li> <a href="">Menu</a><select className={styles.menu}></select></li> 
+                    <li> <a href="">Доставка</a> </li>
+                        <li> <a href="">Контакты</a></li>
                     <img className={styles.phone} src={phone}/>
-                    <li className={styles.numberLi}>+996500405988</li>
+                        <li className={styles.numberLi}><a href="">+996500405988</a></li>
                     <img className={styles.basket} src={korzina}/>
                     <li className={styles.lastLi}>1</li>
                 </ul>

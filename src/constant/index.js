@@ -1,37 +1,36 @@
 export const burger = [
     {
-        imgBurger: "../Media/image/burger1.png",
-        title:"Чизбургер",
+        imgBurger: "/image/burger1.png",
+        title: "Чизбургер",
         titleDesc: "Булка, котлета,сыр,  соленый огурец, лук, помидор,салат айсберг,соус чесночный, соус гриль,кетчуп, майонез",
-        priceBurger:"200  сом",
-        count:"1",
-        btn:"В корзину"
-    },
-    {
-        imgBurger: "../Media/image/burger2.png",
-        title:"Чизбургер",
-        titleDesc: "Булка, котлета,сыр,  соленый огурец, лук, помидор,салат айсберг,соус чесночный, соус гриль,кетчуп, майонез",
-        priceBurger:"200  сом",
-        count:"1",
-        btn:"В корзину"
+        priceBurger: "200  сом",
+        count: "1",
 
     },
     {
-        imgBurger: "../Media/image/burger3.png",
-        title:"Чизбургер",
+        imgBurger: "/image/burger2.png",
+        title: "Чизбургер",
         titleDesc: "Булка, котлета,сыр,  соленый огурец, лук, помидор,салат айсберг,соус чесночный, соус гриль,кетчуп, майонез",
-        priceBurger:"200  сом",
-        count:"1",
-        btn:"В корзину"
+        priceBurger: "200  сом",
+        count: "1",
+
 
     },
     {
-        imgBurger: "../Media/image/burger4.png",
-        title:"Чизбургер",
+        imgBurger: "/image/burger3.png",
+        title: "Чизбургер",
         titleDesc: "Булка, котлета,сыр,  соленый огурец, лук, помидор,салат айсберг,соус чесночный, соус гриль,кетчуп, майонез",
-        priceBurger:"200  сом",
-        count:"1",
-        btn:"В корзину"
+        priceBurger: "200  сом",
+        count: "1",
+
+
+    },
+    {
+        imgBurger: "/image/burger4.png",
+        title: "Чизбургер",
+        titleDesc: "Булка, котлета,сыр,  соленый огурец, лук, помидор,салат айсберг,соус чесночный, соус гриль,кетчуп, майонез",
+        priceBurger: "200  сом",
+        count: "1"
 
     }
 

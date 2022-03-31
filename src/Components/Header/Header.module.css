@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-.containerHeader {
-    position: absolute;
+.container {
     width: 1200px;
     height: 40px;
-    margin-right: 200px;
-    margin-left: 200px;
+    
+
 
 }
 
 .spoon {
-    position: absolute;
-    top: 0.75%;
+
 
 
 }
@@ -26,11 +24,10 @@
     line-height: 23px;
 
     text-transform: uppercase;
-    position: absolute;
+
 
     height: 16px;
-    left: 35px;
-    bottom: 5px;
+
 }
 
 .planet {
@@ -42,20 +39,19 @@
     display: flex;
     align-items: flex-end;
     color: #1D3130;
-    position: absolute;
+
     width: 184px;
     height: 24px;
-    left: 35px;
+
 
 }
 
 .firstMenu {
-    position: absolute;
-    left: 260px;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+
 }
 
 .firstMenu li {
