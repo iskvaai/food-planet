@@ -1,39 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 
-.menuBurgers {
+.menuPizza{    margin-top: 72px;
     width: 264px;
     height: 349px;
-    background: #2B4241;
+    background: rgba(255, 255, 255, 1);
     border-radius: 40px;
     color: #FFFFFF;
     top: 88px;
     display: inline-block;
     margin-right: 34px;
     justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
-.burgerText1 {
-    width: 232px;
-    height: 25px;
+.pizzaText1 {
     margin: 70px 16px 0 16px;
+    align-items: center;
+    text-align: center;
+    width: 232px;
+    height: 24px;
+
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
-    align-items: center;
-    text-align: center;
 
-    color: #FFFFFF;
+    color: #254F4C;
 }
 
-.burgerText2 {
+.pizzaText2 {
 
-    width: 231px;
-    height: 89px;
+    width: 232px;
+    height: 72px;
+    left: 536px;
+    top: 1528px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -41,11 +45,12 @@
     line-height: 16px;
     align-items: center;
     text-align: center;
-    color: #FFFFFF;
+
+    color: #000000;
     margin: 10px 16px 0px 16px;
 }
 
-.priceBurger {
+.pricePizza {
     width: 231px;
     height: 25px;
     font-family: 'Roboto';
@@ -55,32 +60,25 @@
     line-height: 23px;
     align-items: center;
     text-align: center;
-    color: #FFFFFF;
+    color: #254F4C;
     margin: 0px 16px 0px 16px;
 }
-
-.burgerPhoto {
+.pizzaPhoto {
     margin: -82px 16px -60px 25px;
     width: 200px;
-    height: 142.87px;
+    height: 142px;
 
 }
 
-.btnBurgers {
+.btnPizza {
     width: 200px;
     height: 48px;
-    background: #FF583E;
+    background: #254F4C;
     border-radius: 40px;
     border: 0px;
     color: #FFFFFF;
     font-size: 14px;
-    margin: 18px 32px 17px 32px;
-}
- button:hover{
-    transform: scale(1.1);
-    color: white;
-    border-color: #935353;
-     cursor: pointer;
+    margin: 35px 32px 17px 32px;
 }
 .countBtnNumber{
     width: 32px;
@@ -91,21 +89,24 @@
     font-size: 15px;
     line-height: 18px;
     text-align: center;
-    color: #FFFFFF;
+    color: rgba(37, 79, 76, 1);
 }
 
 .countPlus {
     border: none;
-    background-color: #2B4241;
+    background-color: white;
 
 }
 .countMinus {
     border: none;
-    background-color: #2B4241;
+    background-color: white;
     padding: 3px 0 12px 0;
 
 }
 .btnDiv{
     display: flex;
     justify-content: center;
+}
+button:hover{
+    cursor: pointer;
 }

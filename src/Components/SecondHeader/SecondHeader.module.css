@@ -1,17 +1,59 @@
-.listHeader{
-    display:flex;
-    gap:16px;
-    list-style:none;
-    align-content:center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.listHeader {
+    display: flex;
+    gap: 32px;
+    list-style: none;
     width: 72px;
     height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+}
+.listHeader li{
+    color: rgba(29, 49, 48, 1);
+    transition: 0.4s ease all, 0s ease margin;
+
+}
+.listHeader li:hover{
+    background: #ffc600;
+    cursor: pointer;
+}
+.listHeader a:hover{
+    color: #080808;
+
+}
+.listHeader a{
+    text-decoration: none;
+    color: rgba(29, 49, 48, 1);
 }
 .burgerLi{
     text-decoration: underline;
+}
+.burgerLi a{
     color:rgba(255, 88, 62, 1);
 }
 .novinki{
     display: flex;
     align-items: baseline;
     margin: 16px 24px 61px;
+}
+.novinkiH1{
+    width: 112px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    align-items: center;
+    color: #254F4C;
+    margin: 0 164px 0 0;
+}
+.novinkiH1 a{
+    color: #254F4C;
 }
