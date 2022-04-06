@@ -1,6 +1,7 @@
 
 
-.menuPizza{    margin-top: 72px;
+.menuPizza{
+    margin-top: 72px;
     width: 264px;
     height: 349px;
     background: rgba(255, 255, 255, 1);
@@ -109,4 +110,19 @@
 }
 button:hover{
     cursor: pointer;
+}
+
+.btnFood{
+    width: 200px;
+    height: 48px;
+    color: rgba(255, 88, 62, 1);
+    border:1px solid rgba(255, 88, 62, 1);
+    border-radius: 40px;
+
+    background: #ffffff;
+    margin: 40px 545px 40px 467px;
+
+}
+.btnFood:hover{
+    color: rgba(255, 88, 62, 1);
 }

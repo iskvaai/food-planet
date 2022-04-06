@@ -1,0 +1,58 @@
+.commentsBlock{
+    width: 248px;
+    height: 304px;
+    background: #FFFDFD;
+    border: 2px solid #1D3130;
+    box-sizing: border-box;
+    border-radius: 40px;
+    display: inline-table;
+    margin-right: 52px;
+}
+.commentator{
+    width: 102px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-align: right;
+    color: #3B7976;
+    margin: 112px 7px 8px 26px;
+}
+.reviews{
+    width: 276px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    align-items: center;
+    color: #254F4C;
+}
+.commentatorsText{
+    width: 216px;
+    height: 104px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #061817;
+    margin: 8px 16px 56px 16px;
+}
+.commentatorData{
+    width: 206px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #3B7976;
+    margin-left: 90px;
+}

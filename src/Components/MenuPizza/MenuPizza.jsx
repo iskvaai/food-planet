@@ -1,10 +1,11 @@
 import React from "react";
 import MenuPizzaItem from "./MenuPizzaItem";
 import {pizza} from "../../constant";
+import styles from "./MenuPizza.module.css"
 
 const MenuPizza = () => {
     return (
-        <div>
+        <>
             {
                pizza.map((item, index) => {
                     return <MenuPizzaItem
@@ -18,7 +19,8 @@ const MenuPizza = () => {
 
                 })
             }
-        </div>
+            <button className={styles.btnFood}>ПОКАЗАТЬ ЕЩЁ</button>
+        </>
     )
 }
 
