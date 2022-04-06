@@ -15,6 +15,8 @@
     text-align: center;
     color: #1D3130;
     font-size: 16px;
+    margin-left: 224px;
+    margin-top: 49px;
 }
 
 .thirdHeader li {
@@ -25,18 +27,6 @@
     
 }
 
-<<<<<<< HEAD
-.menuLi{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 25px;
-line-height: 29px;
-color: #254F4C;
-margin-right: 170px;
-align-items: center;
-
-=======
 .thirdHeader li a {
     text-decoration: none;
 }
@@ -49,7 +39,6 @@ align-items: center;
 }
 .burgerLi a{
     color:rgba(255, 88, 62, 1);
->>>>>>> origin/aidana
 }
 
 .menuLi {
@@ -61,7 +50,6 @@ align-items: center;
     font-size: 25px;
     line-height: 29px;
     align-items: center;
-
     margin: 0 177px 0 0;
 }
 .menuLi a{
@@ -71,18 +59,11 @@ align-items: center;
     display: flex;
     margin-top: 24px;
 }
-<<<<<<< HEAD
-.sort p{
-    margin-right: 25px;
-    margin-left: 828px;
-    
-=======
 
 .sort p {
     margin-right: 20px;
     margin-left: 848px;
 
->>>>>>> origin/aidana
 }
 
 .sort select {

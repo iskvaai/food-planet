@@ -6,7 +6,7 @@ import styles from "./MenuBurgers.module.css";
 
 const MenuBurgers = () => {
     return (
-        <div>
+        <div style={{marginLeft:"224px"}}>
             {
                 burger.map((item, index) => {
                     return <MenuBurgerItem

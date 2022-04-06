@@ -41,7 +41,8 @@
 .novinki{
     display: flex;
     align-items: baseline;
-    margin: 16px 24px 61px;
+    padding: 16px 24px 61px;
+    margin-left: 224px;
 }
 .novinkiH1{
     width: 112px;

@@ -7,19 +7,17 @@
     border-radius: 40px;
     display: inline-table;
     margin-right: 52px;
+    
 }
 .commentator{
-    width: 102px;
-    height: 24px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     align-items: center;
-    text-align: right;
+    text-align: center;
     color: #3B7976;
-    margin: 112px 7px 8px 26px;
 }
 .reviews{
     width: 276px;
@@ -45,8 +43,7 @@
     margin: 8px 16px 56px 16px;
 }
 .commentatorData{
-    width: 206px;
-    height: 16px;
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
@@ -54,5 +51,8 @@
     line-height: 16px;
     text-align: center;
     color: #3B7976;
-    margin-left: 90px;
+}
+
+.mainDiv{
+    margin: 49px 0 88px 224px ;
 }
