@@ -15,7 +15,8 @@ const MenuBurgers = () => {
                         title={item.title}
                         titleDesc={item.titleDesc}
                         priceBurger={item.priceBurger}
-                        count={item.count}
+
+
                     />
 
                 })
