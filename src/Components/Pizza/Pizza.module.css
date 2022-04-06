@@ -75,6 +75,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 background: #254F4C;
 border-radius: 40px;
+border: none;
 }
 
 .showMore{
