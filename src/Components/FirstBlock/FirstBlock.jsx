@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./FirstBlock.module.css"
-import vector from "../../Media/image/Vector 2.svg"
-import burger from "../../Media/image/burger.png"
+import vector from "../../Media/Vector 2.svg"
+import burger from "../../Media/burger.png"
 import SecondHeader from "../SecondHeader/SecondHeader";
 
 const FirstBlock = () => {
     return (
-        <div className={styles.menuDiv} style={{marginLeft:"200px", marginRight:"200px"}} >
+        <div className={styles.menuDiv}>
 
             <div className={styles.firstMenu}>
 
@@ -30,6 +30,7 @@ const FirstBlock = () => {
 
             </div>
 
+                <SecondHeader/>
 
         </div>
 

@@ -2,8 +2,9 @@ import React from "react";
 import styles from "./SecondHeader.module.css"
 const SecondHeader = () =>{
     return (
-        <div style={{marginLeft:"224px", marginRight:"224px"}} >
-            <h1 >Новинки</h1>
+
+        <div className={styles.novinki}  >
+            <h1>Новинки</h1>
             <header >
                 <nav >
                     <ul className={styles.listHeader} >

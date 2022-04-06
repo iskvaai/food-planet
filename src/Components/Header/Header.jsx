@@ -1,8 +1,8 @@
 import React from 'react';
-import spoon from "../../Media/image/spoon.png";
+import spoon from "../../Media/spoon.png";
 import styles from "./Header.module.css";
-import phone from "../../Media/image/phone.svg";
-import korzina from "../../Media/image/korzina.svg";
+import phone from "../../Media/phone.svg";
+import korzina from "../../Media/korzina.svg";
 
 const Header = () =>{
     return(

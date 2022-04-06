@@ -1,4 +1,3 @@
-
 .listHeader{
     display:flex;
     gap:16px;
@@ -11,4 +10,9 @@
 .burgerLi{
     text-decoration: underline;
     color:rgba(255, 88, 62, 1);
+}
+.novinki{
+    display: flex;
+    align-items: baseline;
+    margin: 16px 24px 61px;
 }

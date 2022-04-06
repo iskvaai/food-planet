@@ -7,6 +7,7 @@ const Menu = () =>{
             <nav>
                 <ul className={styles.thirdHeader}>
                     <li> <a className={styles.menuLi} href="">Меню</a></li>
+                    <li> <a className={styles.menuLI} href="">Меню</a></li>
                     <li> <a href="">Пицца</a></li>
                     <li> <a href="">Бургер</a></li>
                     <li> <a href="">Суши</a></li>
