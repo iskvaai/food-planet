@@ -1,4 +1,3 @@
-
 import React from "react";
 import FirstBlock from "./Components/FirstBlock/FirstBlock";
 import Header from "./Components/Header/Header";
@@ -11,22 +10,19 @@ import Footer from "./Components/Footer/Footer";
 import NavBar from "./AdminPanel/AdminPart/NavBar/NavBar";
 
 function App() {
-  return (
-      <div className="food-planet" style={{ maxWidth:"1600px"}}>
-
-
-          <div style={{ marginRight:"224",marginLeft:"224px"}} >
-              <Header/>
-              <FirstBlock/>
-              <MenuBurgers/>
-              <Menu/>
-              <MenuPizza/>
-              <Comments/>
-          </div>
-
-        <Footer/>
-    </div>
-  );
+    return (
+        <div className="food-planet" style={{maxWidth: "1600px"}}>
+            <div style={{marginRight: "224", marginLeft: "224px"}}>
+                <Header/>
+                <FirstBlock/>
+                <MenuBurgers/>
+                <Menu/>
+                <MenuPizza/>
+                <Comments/>
+            </div>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
