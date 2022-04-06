@@ -4,6 +4,8 @@ import FirstBlock from "./Components/FirstBlock/FirstBlock";
 import Header from "./Components/Header/Header";
 import Menu from "./Components/Menu/Menu";
 import MenuBurgers from "./Components/MenuBurgers/MenuBurgers";
+import Pizza from "./Components/Pizza/Pizza";
+import WhyChooseUs from "./Components/WhyChooseUs/WhyChooseUs";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
@@ -13,6 +15,9 @@ function App() {
         <FirstBlock/>
           <MenuBurgers/>
         <Menu/>
+        <Pizza/>
+        <WhyChooseUs/>
+        <Footer/>
     </div>
   );
 }
