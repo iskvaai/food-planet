@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.PizzaMenu{
+    flex-wrap: wrap;
+}
+
+.pizzas{
+    width: 264px;
+    height: 338px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.pizzaPhoto{
+    margin: -55px 55px -20px 33px;
+    width: 200px;
+    height: 160px;
+}
+
+.pizzaText1{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+align-items: center;
+text-align: center;
+color: #254F4C;
+}
+
+.pizzaText2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding: 0 16px 0 16px;
+    margin-top: -6px;
+}
+
+.pizzaPrice{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #254F4C;
+    margin: 0 0 -5px 0;
+}
+
+.pizzaCount{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #254F4C;
+}
+
+.pizzaButton{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 147.19%;
+width: 200px;
+height: 48px;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #254F4C;
+border-radius: 40px;
+border: none;
+}
+
+.showMore{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 147.19%;    
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF583E;
+    width: 200px;
+    height: 48.3px;
+    border: 1px solid #FF583E;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin: 43px 0 42px 500px;
+    background-color: #FFFFFF;
+}
+
+.buttons{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.minus{
+    width: 16px;
+    height: 0;
+    margin-top: -27px;
+    background:#fff;
+    color: #FF583E;
+    border: none;
+    font-size:20px;
+}
+
+.plus{
+    width: 16px;
+    height: 0;
+    margin-top: -23px;
+    background:#fff;
+    color: #FF583E;
+    border: none;
+    font-size:20px;
+}

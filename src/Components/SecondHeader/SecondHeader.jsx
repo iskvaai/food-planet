@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./SecondHeader.module.css"
 const SecondHeader = () =>{
     return (
+
         <div className={styles.novinki}  >
            {/* <h1 className={styles.novinkiH1}>Новинки</h1>*/}
             <header >
@@ -19,8 +20,6 @@ const SecondHeader = () =>{
                 </nav>
             </header>
         </div>
-
-
     )
 }
 

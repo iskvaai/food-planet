@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.mainChoose{
+    margin: 0 224px 0 224px;
+}
+
+.chooseFlex{
+    display: flex;
+    gap: 32px;
+}
+
+.choose{
+    width: 256px;
+    height: 186px;
+    margin: 42px 0 56px 0;
+    align-items:center;
+    text-align: center;
+}
+
+.chooseText1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #254F4C;
+    margin: 16px 0 8px 0;
+}
+
+.chooseText2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1D3130;
+    margin: 0;
+}
+
+.us{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    color: #254F4C;
+    
+}

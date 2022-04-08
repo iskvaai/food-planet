@@ -1,25 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
-footer {
+.containerFooter {
+    width: 1600px;
     height: 152px;
-}
-.firstMenu {
     display: flex;
-
+    background: #254F4C;
+    align-items: center;
+    justify-content: center;
 }
-.firstMenu li{
+
+.footerUl{
+    display: flex;
+}
+
+.footerUl li{
+    list-style: none;
     margin-right: 60px;
+}
+
+.footerUl li a{
+    color:#FFFFFF;
+    text-decoration: none;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    list-style: none;
-
 }
 
-.firstMenu a{
+.footerSelect{
+    border: none;
+    background: #254F4C;
+    color: #254F4C;
+}
+
+.food{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    text-transform: uppercase;
     color: #FFFFFF;
-    text-decoration: none;
+    margin: 0;
+}
+
+.planet{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;    
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.twoF{
+    margin: 0 129px 0 8px;
+}
+
+.whitePhone{
+    margin-right: 8px;
 }

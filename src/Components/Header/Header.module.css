@@ -1,98 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-.container {
+.containerHeader{
     width: 1200px;
     height: 40px;
-
-
+    display: flex;
+    margin: 0 224px 0 224px;
 }
 
-.spoon {
-
-
-}
-
-.food {
+.food{
     color: #254F4C;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
-
     text-transform: uppercase;
-
-
     height: 16px;
-
+    margin: 0 0 8px 0;
 }
 
-.planet {
+.planet{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    display: flex;
-    align-items: flex-end;
     color: #1D3130;
-
-    width: 184px;
-    height: 24px;
-
-
+    margin: 0;
 }
 
-.firstMenu {
-
+.firstMenu{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.firstMenu li {
-
-    /* display: inline; */
+.firstMenu li{
+    display: inline;
     margin-right: 60px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
+    list-style: none;
 }
 
+.firstMenu li a{
+    color:#1D3130;
+    text-decoration: none;
+}
 
 .firstLi {
     color: #FF583E;
 }
 
-.lastLi {
+.lastLi{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
-    display: flex;
     align-items: center;
     color: #FF583E;
 
 }
 
-.phone, .basket {
+.phone, .basket{
     margin-right: 8px;
 }
 
-.numberLi {
+.numberLi{
     font-size: 18px;
     line-height: 21px;
 }
 
-.menu {
+.menu{
     border: none;
+}
+
+.twoH{
+    margin: 0 129px 0 8px;
 }
