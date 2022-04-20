@@ -7,30 +7,17 @@
     border-radius: 40px;
     display: inline-table;
     margin-right: 52px;
-<<<<<<< HEAD
-}
-.commentator{
-    width: 102px;
-    height: 24px;
-=======
     
 }
 .commentator{
->>>>>>> origin/aidana
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     align-items: center;
-<<<<<<< HEAD
-    text-align: right;
-    color: #3B7976;
-    margin: 112px 7px 8px 26px;
-=======
     text-align: center;
     color: #3B7976;
->>>>>>> origin/aidana
 }
 .reviews{
     width: 276px;
@@ -56,12 +43,7 @@
     margin: 8px 16px 56px 16px;
 }
 .commentatorData{
-<<<<<<< HEAD
-    width: 206px;
-    height: 16px;
-=======
     
->>>>>>> origin/aidana
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
@@ -69,12 +51,8 @@
     line-height: 16px;
     text-align: center;
     color: #3B7976;
-<<<<<<< HEAD
-    margin-left: 90px;
-=======
 }
 
 .mainDiv{
     margin: 49px 0 88px 224px ;
->>>>>>> origin/aidana
 }

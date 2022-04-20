@@ -13,25 +13,12 @@
     line-height: 19px;
     align-items: center;
     text-align: center;
-<<<<<<< HEAD
-    color: #1D3130;
-    font-size: 16px;
-}
-
-.thirdHeader li {
-    line-height: 19px;
-    align-items: center;
-    text-align: center;
-=======
->>>>>>> origin/aidana
     color: #1D3130;
     font-size: 16px;
     margin-left: 224px;
     margin-top: 49px;
 }
 
-<<<<<<< HEAD
-=======
 .thirdHeader li {
     line-height: 19px;
     align-items: center;
@@ -40,26 +27,17 @@
     
 }
 
->>>>>>> origin/aidana
 .thirdHeader li a {
     text-decoration: none;
 }
 .thirdHeader a{
     color: rgba(29, 49, 48, 1);
 }
-<<<<<<< HEAD
-.burgerLi{
-    text-decoration: underline;
-    color:rgba(255, 88, 62, 1);
-}
-.burgerLi a{
-=======
 .burgerLi:hover{
     text-decoration: underline;
     color:rgba(255, 88, 62, 1);
 }
 .burgerLi a:hover{
->>>>>>> origin/aidana
     color:rgba(255, 88, 62, 1);
 }
 
@@ -72,10 +50,6 @@
     font-size: 25px;
     line-height: 29px;
     align-items: center;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/aidana
     margin: 0 177px 0 0;
 }
 .menuLi a{
@@ -83,11 +57,7 @@
 }
 .sort {
     display: flex;
-<<<<<<< HEAD
-
-=======
     margin-top: 24px;
->>>>>>> origin/aidana
 }
 
 .sort p {
