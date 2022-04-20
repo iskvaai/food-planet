@@ -1,3 +1,4 @@
+/*
 import React from "react";
 import styles from "./NavBar.module.css";
 
@@ -9,4 +10,4 @@ const NavBarItem = (props) => {
         </div>
     )
 }
-export default NavBarItem;
+export default NavBarItem;*/

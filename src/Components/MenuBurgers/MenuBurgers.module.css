@@ -59,9 +59,10 @@
 }
 
 .burgerPhoto {
-    margin: -82px 16px -60px 25px;
+    margin: -120px 16px -60px 25px;
     width: 200px;
-    height: 142.87px;
+    /* height: 142.87px; */
+    height: 163px;
 
 }
 
@@ -75,12 +76,7 @@
     font-size: 14px;
     margin: 18px 32px 17px 32px;
 }
- button:hover{
-    transform: scale(1.1);
-    color: white;
-    border-color: #935353;
-     cursor: pointer;
-}
+
 .countBtnNumber{
     width: 32px;
     height: 16px;

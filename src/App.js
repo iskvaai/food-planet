@@ -1,28 +1,22 @@
 import React from 'react';
-import FirstBlock from "./Components/FirstBlock/FirstBlock";
-import Header from "./Components/Header/Header";
-import Menu from "./Components/Menu/Menu";
-import MenuBurgers from "./Components/MenuBurgers/MenuBurgers";
-import Pizza from "./Components/Pizza/Pizza";
-import Comments from "./Components/Comments/Comments";
-import WhyChooseUs from "./Components/WhyChooseUs/WhyChooseUs";
-import Footer from "./Components/Footer/Footer";
-import NavBar from "./AdminPanel/AdminPart/NavBar/NavBar";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Main from "./Pages/Main/Main";
+import AdminContent from "./AdminPanel/AdminContent/AdminContent";
+import Admin from "./Pages/Admin/Admin";
+
 
 function App() {
   return (
-      <div className="food-planet" style={{ width:"1600px"}}>
-        <Header/>
-        <FirstBlock/>
-          <MenuBurgers/>
-        <Menu/>
-        <Pizza/>
-        <WhyChooseUs/>
-        <Comments/>
-        <Footer/>
-    </div>
+      <BrowserRouter>
+          <Routes>
+              <Route path="/" element={<Main/>}/>
+              <Route path="/admin" element={<AdminContent/>}/>
+              <Route path="/adminka" element={<Admin/>}/>
+          </Routes>
+      </BrowserRouter>
+
   )}
 
   export default App;
- 
+
 

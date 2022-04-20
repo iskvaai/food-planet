@@ -8,7 +8,8 @@ const MenuBurgerItem = (burgers) => {
     const [number, setNumber] = useState(1);
 
     const increment = () => {
-        setNumber(number + 1);
+
+       setNumber(number + 1);
     }
     const decrement = () => {
         setNumber(number - 1);

@@ -33,11 +33,11 @@
 .thirdHeader a{
     color: rgba(29, 49, 48, 1);
 }
-.burgerLi{
+.burgerLi:hover{
     text-decoration: underline;
     color:rgba(255, 88, 62, 1);
 }
-.burgerLi a{
+.burgerLi a:hover{
     color:rgba(255, 88, 62, 1);
 }
 

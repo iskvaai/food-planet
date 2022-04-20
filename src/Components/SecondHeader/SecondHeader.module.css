@@ -19,23 +19,16 @@
     transition: 0.4s ease all, 0s ease margin;
 
 }
-.listHeader li:hover{
-    background: #ffc600;
-    cursor: pointer;
-}
-.listHeader a:hover{
-    color: #080808;
 
-}
 .listHeader a{
     text-decoration: none;
     color: rgba(29, 49, 48, 1);
 }
 
-.burgerLi{
+.burgerLi:hover{
     text-decoration: underline;
 }
-.burgerLi a{
+.burgerLi a:hover{
     color:rgba(255, 88, 62, 1);
 }
 .novinki{
