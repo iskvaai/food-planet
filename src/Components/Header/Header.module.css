@@ -4,6 +4,7 @@
 .containerHeader{
     width: 1200px;
     height: 40px;
+<<<<<<< HEAD
 
 
 }
@@ -14,6 +15,13 @@
 }
 
 .food {
+=======
+    display: flex;
+    margin: 0 224px 0 224px;
+}
+
+.food{
+>>>>>>> origin/aidana
     color: #254F4C;
     font-family: 'Roboto';
     font-style: normal;
@@ -55,6 +63,13 @@
     list-style: none;
 }
 
+<<<<<<< HEAD
+=======
+.firstMenu li a{
+    color:#1D3130;
+    text-decoration: none;
+}
+>>>>>>> origin/aidana
 
 .firstLi {
     color: #FF583E;

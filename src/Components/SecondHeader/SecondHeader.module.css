@@ -19,13 +19,8 @@
     transition: 0.4s ease all, 0s ease margin;
 
 }
-.listHeader li:hover{
-    background: #ffc600;
-    cursor: pointer;
-}
-.listHeader a:hover{
-    color: #080808;
 
+<<<<<<< HEAD
 }
 .listHeader a{
     text-decoration: none;
@@ -44,21 +39,28 @@
     color: #080808;
 
 }
+=======
+>>>>>>> origin/aidana
 .listHeader a{
     text-decoration: none;
     color: rgba(29, 49, 48, 1);
 }
 
-.burgerLi{
+.burgerLi:hover{
     text-decoration: underline;
 }
-.burgerLi a{
+.burgerLi a:hover{
     color:rgba(255, 88, 62, 1);
 }
 .novinki{
     display: flex;
     align-items: baseline;
+<<<<<<< HEAD
     margin: 16px 24px 61px;
+=======
+    padding: 16px 24px 61px;
+    margin-left: 224px;
+>>>>>>> origin/aidana
 }
 .novinkiH1{
     width: 112px;
