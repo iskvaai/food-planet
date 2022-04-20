@@ -12,13 +12,6 @@ const AdminContent = () => {
         <>
         <div style={{display: "flex"}}>
 
-
-
-
-
-
-
-
        <NavBar/>
         <div className={styles.siteCenter} >
             <div style={{display: "flex", marginTop: "32px"}}>
