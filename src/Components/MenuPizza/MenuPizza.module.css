@@ -1,0 +1,128 @@
+
+
+.menuPizza{
+    margin-top: 72px;
+    width: 264px;
+    height: 349px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 40px;
+    color: #FFFFFF;
+    top: 88px;
+    display: inline-block;
+    margin-right: 34px;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.pizzaText1 {
+    margin: 70px 16px 0 16px;
+    align-items: center;
+    text-align: center;
+    width: 232px;
+    height: 24px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #254F4C;
+}
+
+.pizzaText2 {
+
+    width: 232px;
+    height: 72px;
+    left: 536px;
+    top: 1528px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+    margin: 10px 16px 0px 16px;
+}
+
+.pricePizza {
+    width: 231px;
+    height: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    color: #254F4C;
+    margin: 0px 16px 0px 16px;
+}
+.pizzaPhoto {
+    margin: -82px 16px -60px 25px;
+    width: 200px;
+    height: 142px;
+
+}
+
+.btnPizza {
+    width: 200px;
+    height: 48px;
+    background: #254F4C;
+    border-radius: 40px;
+    border: 0px;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 35px 32px 17px 32px;
+}
+.countBtnNumber{
+    width: 32px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: rgba(37, 79, 76, 1);
+}
+
+.countPlus {
+    border: none;
+    background-color: white;
+
+}
+.countMinus {
+    border: none;
+    background-color: white;
+    padding: 3px 0 12px 0;
+
+}
+.btnDiv{
+    display: flex;
+    justify-content: center;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.btnFood{
+    width: 200px;
+    height: 48px;
+    color: rgba(255, 88, 62, 1);
+    border:1px solid rgba(255, 88, 62, 1);
+    border-radius: 40px;
+
+    background: #ffffff;
+    margin: 40px 545px 40px 467px;
+
+}
+.btnFood:hover{
+    color: rgba(255, 88, 62, 1);
+}

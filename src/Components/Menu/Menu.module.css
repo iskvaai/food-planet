@@ -15,8 +15,6 @@
     text-align: center;
     color: #1D3130;
     font-size: 16px;
-    margin-left: 224px;
-    margin-top: 49px;
 }
 
 .thirdHeader li {
@@ -24,7 +22,9 @@
     align-items: center;
     text-align: center;
     color: #1D3130;
-    
+    font-size: 16px;
+    margin-left: 224px;
+    margin-top: 49px;
 }
 
 .thirdHeader li a {
@@ -50,6 +50,7 @@
     font-size: 25px;
     line-height: 29px;
     align-items: center;
+
     margin: 0 177px 0 0;
 }
 .menuLi a{
@@ -57,7 +58,7 @@
 }
 .sort {
     display: flex;
-    margin-top: 24px;
+
 }
 
 .sort p {

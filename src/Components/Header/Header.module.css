@@ -4,11 +4,16 @@
 .containerHeader{
     width: 1200px;
     height: 40px;
-    display: flex;
-    margin: 0 224px 0 224px;
+
+
 }
 
-.food{
+.spoon {
+
+
+}
+
+.food {
     color: #254F4C;
     font-family: 'Roboto';
     font-style: normal;
@@ -50,10 +55,6 @@
     list-style: none;
 }
 
-.firstMenu li a{
-    color:#1D3130;
-    text-decoration: none;
-}
 
 .firstLi {
     color: #FF583E;
