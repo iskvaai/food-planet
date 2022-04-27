@@ -6,7 +6,8 @@ import Admin from "./Pages/Admin/Admin";
 
 
 function App() {
-  return (
+    return (
+      <>
       <BrowserRouter>
           <Routes>
               <Route path="/" element={<Main/>}/>
@@ -15,6 +16,8 @@ function App() {
           </Routes>
       </BrowserRouter>
 
+
+</>
   )}
 
   export default App;

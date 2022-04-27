@@ -28,6 +28,7 @@ const AdminContent = () => {
                 <p className={styles.name}>Jones Ferdinand</p>
                 <img src={avatar} alt=""/>
 
+
             </div>
 
 
@@ -50,6 +51,8 @@ const AdminContent = () => {
     <Link to="/" className="button button--black">
         <span>Вернуться назад</span>
     </Link>
+
+
     </>
     )
 }
